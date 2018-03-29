@@ -1,9 +1,26 @@
 ---
 layout: First post
-title: You're up and running!
+title: Test
 ---
 
 Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
+
+$$
+\begin{bmatrix}
+a & b\\
+c & d\\
+\end{bmatrix}
+\cdot
+\begin{bmatrix}
+e & f\\
+g & h\\
+\end{bmatrix}
+=
+\begin{bmatrix}
+ae+bg & af+bh\\
+ce+dg & cf+dh\\
+\end{bmatrix}
+$$
 
 ![_config.yml]({{ site.baseurl }}/images/config.png)
 
