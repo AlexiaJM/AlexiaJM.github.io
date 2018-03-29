@@ -4,12 +4,12 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+My name is Alexia and I’m a researcher in statistics and machine learning. This is my research blog where I post some of the things I am thinking about or recently learned. This blog will likely be mainly focused on generative adversarial neural networks but I might also post about other statistical subjects too.
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+You can read more about my previous work on my [website](ajolicoeur.wordpress.com) and look at my computer-generated cats [here](ajolicoeur.wordpress.com/cats).
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[alexia.jolicoeur-martineau@mail.mcgill.ca](mailto:alexia.jolicoeur-martineau@mail.mcgill.ca)
