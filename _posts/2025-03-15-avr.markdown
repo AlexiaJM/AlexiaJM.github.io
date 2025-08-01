@@ -1,0 +1,84 @@
+---
+layout: post
+title: "Generating Games 🎮 with Agents Evaluated on Audio-Visual Recordings 📹"
+---
+
+  \|\| [Paper](Soon) \| [Code](https://github.com/SamsungSAILMontreal/AVR-Agent)  \|\|
+
+In this new work, I built an evaluation metric, a benchmark, and a multi-agent framework for video-game generation.
+
+First, I made a new evaluation metric called AVR-eval for multimedia content (e.g., video games and animations) through  Audio-Visual Recordings (AVR). Contrary to [FVD](https://arxiv.org/abs/1812.01717), it does not require a dataset of examples, and contrary to [WebDev Arena](https://web.lmarena.ai/), it does not require human evaluation. AVR-eval uses an omni-modal (processing text, audio, and video) model in order to compare the AVR of two contents in order to determine which is the best.
+
+Then, from this metric, I built a simple benchmark for web (JavaScript + HTML) animations and games.
+
+While coding models can generate content in a single prompt, performance can be enhanced with multiple steps of improvement. Furthermore, current agent frameworks do not handle audio, video, 3D models, and custom assets, which are important for web games. To solve this issue, I built AVR-Agent, a multi-agent system for generating JavaScript content from a bank of multimedia assets (audio, images, and 3D models).  In AVR-agent, the coding agent selects the relevant assets and generates an initial code. Then, it improves the code through feedback from an omni-modal agent that processes the AVR of the content.
+
+See below for examples of generated games and info about AVR-eval, AVR-Bench, and AVR-Agent. 
+Read the [paper](Soon) for more details. The code is open-source and available [here](https://github.com/SamsungSAILMontreal/AVR-Agent).
+
+<div style="display: flex; gap: 20px;">
+  <video width="33%" controls>
+    <source src="{{ site.baseurl }}/assets/videos/kimi2_assetsfeedback_initial.mp4" type="video/mp4">
+    Kimi-K2 Beat em up game - One-shot with assets
+  </video>
+  <video width="33%" controls>
+    <source src="{{ site.baseurl }}/assets/videos/kimi2_assetsfeedback.mp4" type="video/mp4">
+    Kimi-K2 Beat em up game - AVR-Agent (10 steps) with assets and AVR feedback
+  </video>
+  <video width="33%" controls>
+    <source src="{{ site.baseurl }}/assets/videos/kimi2.mp4" type="video/mp4">
+    Kimi-K2 Beat em up game - AVR-Agent (10 steps) with no assets nor AVR feedback
+  </video>
+</div>
+
+<div style="display: flex; gap: 20px;">
+  <video width="33%" controls>
+    <source src="{{ site.baseurl }}/assets/videos/kimi5_assetsfeedback_initial.mp4" type="video/mp4">
+    Kimi-K2 Incremental game - One-shot with assets
+  </video>
+  <video width="33%" controls>
+    <source src="{{ site.baseurl }}/assets/videos/kimi5_assetsfeedback.mp4" type="video/mp4">
+    Kimi-K2 Incremental game - AVR-Agent (10 steps)
+  </video>
+  <video width="33%" controls>
+    <source src="{{ site.baseurl }}/assets/videos/kimi5.mp4" type="video/mp4">
+    Kimi-K2 Incremental game - AVR-Agent (10 steps) with no assets nor AVR feedback
+  </video>
+</div>
+
+<div style="display: flex; gap: 20px;">
+  <video width="33%" controls>
+    <source src="{{ site.baseurl }}/assets/videos/kimi1_assetsfeedback_initial.mp4" type="video/mp4">
+    Kimi-K2 Platformer game - One-shot with assets
+  </video>
+  <video width="33%" controls>
+    <source src="{{ site.baseurl }}/assets/videos/kimi1_assetsfeedback.mp4" type="video/mp4">
+    Kimi-K2 Platformer game - AVR-Agent (10 steps) with assets and AVR feedback
+  </video>
+  <video width="33%" controls>
+    <source src="{{ site.baseurl }}/assets/videos/kimi1.mp4" type="video/mp4">
+    Kimi-K2 Platformer game - AVR-Agent (10 steps) with no assets nor AVR feedback
+  </video>
+</div>
+
+## Evaluation metric: AVR-eval
+
+<figure>
+  <img src="{{ site.baseurl }}/assets/images/VGAgent1.png" alt="AVR-Agent" style="width: 100%;">
+  <figcaption>AVR-Agent</figcaption>
+</figure>
+
+## Benchmark: AVR-Bench
+
+<figure>
+  <img src="{{ site.baseurl }}/assets/images/bench.png" alt="AVR-Bench" style="width: 100%;">
+  <figcaption>AVR-Bench</figcaption>
+</figure>
+
+## Multi-agent framework: AVR-Agent
+
+<figure>
+  <img src="{{ site.baseurl }}/assets/images/VGAgent2.png" alt="AVR-Agent" style="width: 100%;">
+  <figcaption>AVR-Agent</figcaption>
+</figure>
+
