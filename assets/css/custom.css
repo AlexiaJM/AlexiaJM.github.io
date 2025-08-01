@@ -1,0 +1,13 @@
+.wrapper {
+    max-width: 100% !important;
+    width: 100% !important;
+    margin: 0 auto;
+    padding: 20px; /* Optional: keeps content from touching screen edges */
+}
+
+/* Optional: Adjust padding for mobile devices */
+@media (max-width: 768px) {
+    .wrapper {
+        padding: 10px;
+    }
+}

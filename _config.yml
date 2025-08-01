@@ -22,7 +22,7 @@ title: ""
 email: ""
 description: >- # this means to ignore newlines until "baseurl:"
 
-url: "htpps://emygervais.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "htpps://AlexiaJM.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
 
 # Build settings
