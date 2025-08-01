@@ -9,6 +9,10 @@ In this new work, I built an evaluation metric (AVR-Eval) and a multi-agent fram
 
 I show below examples of generated games. Read the [paper](Soon) for more details. The code for AVR-Eval and AVR-Agent is available [here](https://github.com/SamsungSAILMontreal/AVR-Eval-Agent).
 
+<p align="center">
+  <img src="{{ site.baseurl }}/assets/images/before_after.png" alt="AVR-Agent"  style="width: 60%;">
+</p>
+
 <br><br>
 
 ## Abstract
