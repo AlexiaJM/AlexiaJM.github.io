@@ -1,6 +1,6 @@
 .wrapper {
-    max-width: 100% !important;
-    width: 100% !important;
+    max-width: 80% !important;
+    width: 80% !important;
     margin: 0 auto;
     padding: 20px; /* Optional: keeps content from touching screen edges */
 }

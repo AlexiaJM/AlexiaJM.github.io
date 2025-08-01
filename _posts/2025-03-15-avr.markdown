@@ -20,16 +20,17 @@ Read the [paper](Soon) for more details. The code is open-source and available [
   <video width="33%" controls>
     <source src="{{ site.baseurl }}/assets/videos/kimi2_assetsfeedback_initial.mp4" type="video/mp4">
     Kimi-K2 Beat em up game - One-shot with assets
-  </video>
+  </source></video><figcaption style="text-align: center;">Kimi-K2 Beat em up game - One-shot with assets</figcaption>
   <video width="33%" controls>
     <source src="{{ site.baseurl }}/assets/videos/kimi2_assetsfeedback.mp4" type="video/mp4">
     Kimi-K2 Beat em up game - AVR-Agent (10 steps) with assets and AVR feedback
-  </video>
+  </source></video><figcaption style="text-align: center;">Kimi-K2 Beat em up game - AVR-Agent (10 steps) with assets and AVR feedback</figcaption>
   <video width="33%" controls>
     <source src="{{ site.baseurl }}/assets/videos/kimi2.mp4" type="video/mp4">
-    Kimi-K2 Beat em up game - AVR-Agent (10 steps) with no assets nor AVR feedback
-  </video>
+  </source></video><figcaption style="text-align: center;">Kimi-K2 Beat em up game - AVR-Agent (10 steps) with no assets nor AVR feedback</figcaption>
 </div>
+
+<div style="display: flex; gap: 20px; margin-bottom: 20px;">
 
 <div style="display: flex; gap: 20px;">
   <video width="33%" controls>
