@@ -41,18 +41,20 @@ Kimi-K2 Beat em up game - AVR-Agent (10 steps) with no assets nor AVR feedback
 </div>
 
 
+
+
 <div style="display: flex; gap: 20px; margin-bottom: 20px;">
 
 <div style="display: flex; gap: 20px;">
-  <video width="33%" controls>
+  <video width="100%" controls>
     <source src="{{ site.baseurl }}/assets/videos/kimi5_assetsfeedback_initial.mp4" type="video/mp4">
     Kimi-K2 Incremental game - One-shot with assets
   </video>
-  <video width="33%" controls>
+  <video width="100%" controls>
     <source src="{{ site.baseurl }}/assets/videos/kimi5_assetsfeedback.mp4" type="video/mp4">
     Kimi-K2 Incremental game - AVR-Agent (10 steps)
   </video>
-  <video width="33%" controls>
+  <video width="100%" controls>
     <source src="{{ site.baseurl }}/assets/videos/kimi5.mp4" type="video/mp4">
     Kimi-K2 Incremental game - AVR-Agent (10 steps) with no assets nor AVR feedback
   </video>
