@@ -17,17 +17,20 @@ See below for examples of generated games and info about AVR-eval, AVR-Bench, an
 Read the [paper](Soon) for more details. The code is open-source and available [here](https://github.com/SamsungSAILMontreal/AVR-Agent).
 
 <div style="display: flex; gap: 20px;">
+  <div style="text-align: center;">Kimi-K2 Beat em up game - One-shot with assets</div>
   <video width="33%" controls>
     <source src="{{ site.baseurl }}/assets/videos/kimi2_assetsfeedback_initial.mp4" type="video/mp4">
     Kimi-K2 Beat em up game - One-shot with assets
-  </source></video><figcaption style="text-align: center;">Kimi-K2 Beat em up game - One-shot with assets</figcaption>
+  </source></video>
+  <div style="text-align: center;">Kimi-K2 Beat em up game - AVR-Agent (10 steps) with assets and AVR feedback</div>
   <video width="33%" controls>
     <source src="{{ site.baseurl }}/assets/videos/kimi2_assetsfeedback.mp4" type="video/mp4">
     Kimi-K2 Beat em up game - AVR-Agent (10 steps) with assets and AVR feedback
-  </source></video><figcaption style="text-align: center;">Kimi-K2 Beat em up game - AVR-Agent (10 steps) with assets and AVR feedback</figcaption>
+  </source></video>
+  <div style="text-align: center;">Kimi-K2 Beat em up game - AVR-Agent (10 steps) with no assets nor AVR feedback</div>
   <video width="33%" controls>
     <source src="{{ site.baseurl }}/assets/videos/kimi2.mp4" type="video/mp4">
-  </source></video><figcaption style="text-align: center;">Kimi-K2 Beat em up game - AVR-Agent (10 steps) with no assets nor AVR feedback</figcaption>
+  </source></video>
 </div>
 
 <div style="display: flex; gap: 20px; margin-bottom: 20px;">
