@@ -11,68 +11,84 @@ First, I made a new evaluation metric called AVR-eval for multimedia content (e.
 
 Then, from this metric, I tested generation for web (JavaScript + HTML) animations and games.
 
-While coding models can generate content in a single prompt, performance can be enhanced with multiple steps of improvement. Furthermore, current agent frameworks do not handle audio, video, 3D models, and custom assets, which are important for web games. To solve this issue, I built AVR-Agent, a multi-agent system for generating JavaScript content from a bank of multimedia assets (audio, images, and 3D models).  In AVR-agent, the coding agent selects the relevant assets and generates an initial code. Then, it improves the code through feedback from an omni-modal agent that processes the AVR of the content.
+While coding models can generate content in a single prompt, performance can be enhanced with multiple steps of improvement. Meanwhile, agent frameworks do not handle audio, video, 3D models, and custom assets, which are important for web games. To solve this issue, I built AVR-Agent, a multi-agent system for generating JavaScript content from a bank of multimedia assets (audio, images, and 3D models).  In AVR-agent, the coding agent selects the relevant assets and generates an initial code. Then, it improves the code through feedback from an omni-modal agent that processes the AVR of the content.
 
-See below for examples of generated games and info about AVR-eval, AVR-Bench, and AVR-Agent. 
-Read the [paper](Soon) for more details. The code is open-source and available [here](https://github.com/SamsungSAILMontreal/AVR-Agent).
+I show below examples of generated games. Read the [paper](Soon) for more details. The code for AVR-Eval and AVR-Agent is available [here](https://github.com/SamsungSAILMontreal/AVR-Eval-Agent).
 
-Kimi-K2 Beat em up game - One-shot with assets
+## Examples games made with Kimi-K2
+
+### Beat em up game
+
+#### One-shot with assets
+
 <div style="display: flex; gap: 20px;">
   <video width="100%" controls>
     <source src="{{ site.baseurl }}/assets/videos/kimi2_assetsfeedback_initial.mp4" type="video/mp4">
-    Kimi-K2 Beat em up game - One-shot with assets
   </source></video>
 </div>
 
-Kimi-K2 Beat em up game - AVR-Agent (10 steps) with assets and AVR feedback
+#### AVR-Agent (10 steps) with assets and AVR feedback
 <div style="display: flex; gap: 20px;">
   <video width="100%" controls>
-    <source src="{{ site.baseurl }}/assets/videos/kimi2_assetsfeedback_initial.mp4" type="video/mp4">
-    Kimi-K2 Beat em up game - One-shot with assets
+    <source src="{{ site.baseurl }}/assets/videos/kimi2_assetsfeedback.mp4" type="video/mp4">
   </source></video>
 </div>
 
-Kimi-K2 Beat em up game - AVR-Agent (10 steps) with no assets nor AVR feedback
+#### AVR-Agent (10 steps) without assets and AVR feedback
 <div style="display: flex; gap: 20px;">
   <video width="100%" controls>
-    <source src="{{ site.baseurl }}/assets/videos/kimi2_assetsfeedback_initial.mp4" type="video/mp4">
-    Kimi-K2 Beat em up game - One-shot with assets
+    <source src="{{ site.baseurl }}/assets/videos/kimi2.mp4" type="video/mp4">
   </source></video>
 </div>
 
 
+### Incremental game
 
-
-<div style="display: flex; gap: 20px; margin-bottom: 20px;">
+#### One-shot with assets
 
 <div style="display: flex; gap: 20px;">
   <video width="100%" controls>
     <source src="{{ site.baseurl }}/assets/videos/kimi5_assetsfeedback_initial.mp4" type="video/mp4">
-    Kimi-K2 Incremental game - One-shot with assets
-  </video>
-  <video width="100%" controls>
-    <source src="{{ site.baseurl }}/assets/videos/kimi5_assetsfeedback.mp4" type="video/mp4">
-    Kimi-K2 Incremental game - AVR-Agent (10 steps)
-  </video>
-  <video width="100%" controls>
-    <source src="{{ site.baseurl }}/assets/videos/kimi5.mp4" type="video/mp4">
-    Kimi-K2 Incremental game - AVR-Agent (10 steps) with no assets nor AVR feedback
-  </video>
+  </source></video>
 </div>
 
+#### AVR-Agent (10 steps) with assets and AVR feedback
 <div style="display: flex; gap: 20px;">
-  <video width="33%" controls>
+  <video width="100%" controls>
+    <source src="{{ site.baseurl }}/assets/videos/kimi5_assetsfeedback.mp4" type="video/mp4">
+  </source></video>
+</div>
+
+#### AVR-Agent (10 steps) without assets and AVR feedback
+<div style="display: flex; gap: 20px;">
+  <video width="100%" controls>
+    <source src="{{ site.baseurl }}/assets/videos/kimi5.mp4" type="video/mp4">
+  </source></video>
+</div>
+
+
+### Platformer game
+
+#### One-shot with assets
+
+<div style="display: flex; gap: 20px;">
+  <video width="100%" controls>
     <source src="{{ site.baseurl }}/assets/videos/kimi1_assetsfeedback_initial.mp4" type="video/mp4">
-    Kimi-K2 Platformer game - One-shot with assets
-  </video>
-  <video width="33%" controls>
+  </source></video>
+</div>
+
+#### AVR-Agent (10 steps) with assets and AVR feedback
+<div style="display: flex; gap: 20px;">
+  <video width="100%" controls>
     <source src="{{ site.baseurl }}/assets/videos/kimi1_assetsfeedback.mp4" type="video/mp4">
-    Kimi-K2 Platformer game - AVR-Agent (10 steps) with assets and AVR feedback
-  </video>
-  <video width="33%" controls>
+  </source></video>
+</div>
+
+#### AVR-Agent (10 steps) without assets and AVR feedback
+<div style="display: flex; gap: 20px;">
+  <video width="100%" controls>
     <source src="{{ site.baseurl }}/assets/videos/kimi1.mp4" type="video/mp4">
-    Kimi-K2 Platformer game - AVR-Agent (10 steps) with no assets nor AVR feedback
-  </video>
+  </source></video>
 </div>
 
 ## Evaluation metric: AVR-eval
