@@ -5,12 +5,17 @@ title: "Multi-Agent Game 🎮 Generation and Evaluation via Audio-Visual Recordi
 
   \|\| [Paper](Soon) \| [Code](https://github.com/SamsungSAILMontreal/AVR-Eval-Agent)  \|\|
 
-In this new work, I built an evaluation metric (AVR-Eval) and a multi-agent framework (AVR-Agent) for video-game generation through Audio-Visual Recordings (AVR).
+Generating interactive multimedia content such as video games or animations (with sound) is a challenging task. In this work, I propose an evaluation metric for assessing and a multi-agent system for generating such content.
+
+AVR-Eval is an evaluation metric for multimedia content (video games, animations, etc.) through an omni-modal model (processing text, video, and audio) that compares the Audio-Visual Recordings (AVR) of two contents. Contrary to metrics like [FVD](https://arxiv.org/abs/1812.01717) or [JEDi](https://oooolga.github.io/JEDi.github.io/), it does not require any dataset. Contrary to [WebDev Arena](https://web.lmarena.ai/leaderboard), it does not require human evaluators.
+
+AVR-Agent is a multi-agent framework leveraging both coding and omni-modal models for video-game generation through AVR feedback and a bank of multimedia assets made by artists (images, sound, music, 3D models).
+
 
 I show below examples of generated games. Read the [paper](Soon) for more details. The code for AVR-Eval and AVR-Agent is available [here](https://github.com/SamsungSAILMontreal/AVR-Eval-Agent).
 
 <p align="center">
-  <img src="{{ site.baseurl }}/assets/images/before_after.png" alt="AVR-Agent"  style="width: 90%;">
+  <img src="{{ site.baseurl }}/assets/images/before_after.png" alt="AVR-Agent"  style="width: 100%;">
 </p>
 
 <br><br>
