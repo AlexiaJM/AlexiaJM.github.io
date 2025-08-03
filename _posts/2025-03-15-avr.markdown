@@ -102,15 +102,15 @@ I show below examples of generated games. Read the [paper](Soon) for more detail
 
 ## Evaluation metric: AVR-eval
 
-<figure>
-  <img src="{{ site.baseurl }}/assets/images/VGAgent1.png" alt="AVR-Agent" style="width: 100%;">
-</figure>
+<p align="center">
+  <img src="{{ site.baseurl }}/assets/images/VGAgent1.png" alt="AVR-Agent"  style="width: 100%;">
+</p>
 
 <br><br>
 
 ## Multi-agent framework: AVR-Agent
 
-<figure>
-  <img src="{{ site.baseurl }}/assets/images/VGAgent2.png" alt="AVR-Agent" style="width: 100%;">
-</figure>
+<p align="center">
+  <img src="{{ site.baseurl }}/assets/images/VGAgent2.png" alt="AVR-Agent"  style="width: 100%;">
+</p>
 
