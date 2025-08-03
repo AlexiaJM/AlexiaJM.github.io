@@ -3,7 +3,7 @@ layout: post
 title: "Multi-Agent Game 🎮 Generation and Evaluation via Audio-Visual Recordings 📹"
 ---
 
-  \|\| [Paper](Soon) \| [Code](https://github.com/SamsungSAILMontreal/AVR-Eval-Agent)  \|\|
+  \|\| [Paper](Toadd) \| [Code](https://github.com/SamsungSAILMontreal/AVR-Eval-Agent)  \|\|
 
 Generating interactive multimedia content such as video games or animations (with sound) is a challenging task. In this work, I propose an evaluation metric for assessing and a multi-agent system for generating such content.
 
