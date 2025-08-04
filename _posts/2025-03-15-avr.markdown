@@ -100,6 +100,112 @@ I show below examples of generated games. Read the [paper](https://arxiv.org/abs
 
 <br><br>
 
+## Examples games made with Qwen3-Coder
+
+### Beat em up game
+
+#### One-shot with assets
+
+<div style="display: flex; gap: 20px;">
+  <video width="100%" controls>
+    <source src="{{ site.baseurl }}/assets/videos/qwen3coder_assetsfeedback_initial.mp4" type="video/mp4">
+  </source></video>
+</div>
+
+#### AVR-Agent (10 steps) with assets and AVR feedback
+<div style="display: flex; gap: 20px;">
+  <video width="100%" controls>
+    <source src="{{ site.baseurl }}/assets/videos/qwen3coder_assetsfeedback.mp4" type="video/mp4">
+  </source></video>
+</div>
+
+#### AVR-Agent (10 steps) without assets nor AVR feedback
+<div style="display: flex; gap: 20px;">
+  <video width="100%" controls>
+    <source src="{{ site.baseurl }}/assets/videos/qwen3coder.mp4" type="video/mp4">
+  </source></video>
+</div>
+
+<br><br>
+
+### Incremental game
+
+#### One-shot with assets
+
+<div style="display: flex; gap: 20px;">
+  <video width="100%" controls>
+    <source src="{{ site.baseurl }}/assets/videos/qwen3coder5_assetsfeedback_initial.mp4" type="video/mp4">
+  </source></video>
+</div>
+
+#### AVR-Agent (10 steps) with assets and AVR feedback
+<div style="display: flex; gap: 20px;">
+  <video width="100%" controls>
+    <source src="{{ site.baseurl }}/assets/videos/qwen3coder5_assetsfeedback.mp4" type="video/mp4">
+  </source></video>
+</div>
+
+#### AVR-Agent (10 steps) without assets nor AVR feedback
+<div style="display: flex; gap: 20px;">
+  <video width="100%" controls>
+    <source src="{{ site.baseurl }}/assets/videos/qwen3coder5.mp4" type="video/mp4">
+  </source></video>
+</div>
+
+<br><br>
+
+### Bowling game
+
+#### One-shot with assets
+
+<div style="display: flex; gap: 20px;">
+  <video width="100%" controls>
+    <source src="{{ site.baseurl }}/assets/videos/qwen3coder3_assetsfeedback_initial.mp4" type="video/mp4">
+  </source></video>
+</div>
+
+#### AVR-Agent (10 steps) with assets and AVR feedback
+<div style="display: flex; gap: 20px;">
+  <video width="100%" controls>
+    <source src="{{ site.baseurl }}/assets/videos/qwen3coder3_assetsfeedback.mp4" type="video/mp4">
+  </source></video>
+</div>
+
+#### AVR-Agent (10 steps) without assets nor AVR feedback
+<div style="display: flex; gap: 20px;">
+  <video width="100%" controls>
+    <source src="{{ site.baseurl }}/assets/videos/qwen3coder3.mp4" type="video/mp4">
+  </source></video>
+</div>
+
+<br><br>
+
+### Solitaire game
+
+#### One-shot with assets
+
+<div style="display: flex; gap: 20px;">
+  <video width="100%" controls>
+    <source src="{{ site.baseurl }}/assets/videos/qwen3coder4_assetsfeedback_initial.mp4" type="video/mp4">
+  </source></video>
+</div>
+
+#### AVR-Agent (10 steps) with assets and AVR feedback
+<div style="display: flex; gap: 20px;">
+  <video width="100%" controls>
+    <source src="{{ site.baseurl }}/assets/videos/qwen3coder4_assetsfeedback.mp4" type="video/mp4">
+  </source></video>
+</div>
+
+#### AVR-Agent (10 steps) without assets nor AVR feedback
+<div style="display: flex; gap: 20px;">
+  <video width="100%" controls>
+    <source src="{{ site.baseurl }}/assets/videos/qwen3coder4.mp4" type="video/mp4">
+  </source></video>
+</div>
+
+<br><br>
+
 ## Evaluation metric: AVR-eval
 
 <p align="center">
