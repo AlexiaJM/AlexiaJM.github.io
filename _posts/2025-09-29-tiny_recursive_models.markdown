@@ -11,11 +11,11 @@ This work came to be after I learned about the recent innovative Hierarchical Re
 
 ### How TRM works
 
-<img src="{{ site.baseurl }}/assets/images/TRM_fig.png" alt="TRM-Figure" style="width:50%">
+<img src="{{ site.baseurl }}/assets/images/TRM_fig.png" alt="TRM-Figure" style="width:50%" class="center">
 
 Tiny Recursion Model (TRM) recursively improves its predicted answer y with a tiny network. It starts with the embedded input question x and initial embedded answer y and latent z. For up to 16 improvements steps, it tries to improve its answer y. It does so by i) recursively updating n times its latent z given the question x, current answer y, and current latent z (recursive reasoning), and then ii) updating its answer y given the current answer y and current latent z. This recursive process allows the model to progressively improves its answer in an extremely parameter-efficient manner while minimizing overfitting.
 
-<img src="{{ site.baseurl }}/assets/images/TRM_pseudocode.png" alt="TRM" style="width:50%">
+<img src="{{ site.baseurl }}/assets/images/TRM_pseudocode.png" alt="TRM" style="width:80%" class="center">
 
 See the [paper](https://arxiv.org/abs/xxxxx) for more details.
 
