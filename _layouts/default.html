@@ -8,11 +8,43 @@ layout: compress
     <meta property="og:image:width" content="765" />
 <meta property="og:image:height" content="451" />
 <meta property="og:type" content="website" />
-<meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:image" content="https://AlexiaJM.github.io/assets/images/thumbnail.jpg" />
-<meta name="twitter:site" content="@jm_alexia" />
-<meta name="twitter:title" content="Game Generation and Evaluation" />
-<meta name="twitter:description" content="Multi-Agent Game 🎮 Generation and Evaluation via Audio-Visual Recordings 📹" />
+
+{% if page.twitter_card_type %}
+  <meta name="twitter:card" content="{{ page.twitter_card_type }}">
+{% else %}
+  <meta name="twitter:card" content="summary_large_image">  <!-- Your default -->
+{% endif %}
+
+{% if page.twitter_site %}
+  <meta name="twitter:site" content="{{ page.twitter_site }}">
+{% else %}
+  <meta name="twitter:site" content="@jm_alexia">  <!-- Your default -->
+{% endif %}
+
+{% if page.twitter_creator %}
+  <meta name="twitter:creator" content="{{ page.twitter_creator }}">
+{% else %}
+  <meta name="twitter:creator" content="@jm_alexia">  <!-- Your default -->
+{% endif %}
+
+{% if page.twitter_description %}
+  <meta name="twitter:description" content="{{ page.twitter_description }}">
+{% else %}
+  <meta name="twitter:description" content="{{ page.excerpt | strip_html | truncate: 160 }}">  <!-- Default: post excerpt -->
+{% endif %}
+
+{% if page.twitter_image %}
+  <meta name="twitter:image" content="{{ page.twitter_image }}">
+{% else %}
+  <meta name="twitter:image" content="https://AlexiaJM.github.io/assets/default_thumbnail.jpg">  <!-- Your default image -->
+{% endif %}
+
+{% if page.twitter_title %}
+  <meta name="twitter:title" content="{{ page.twitter_title }}">
+{% else %}
+  <meta name="twitter:title" content="{{ page.title }}">  <!-- Default: post title -->
+{% endif %}
+
   </head>
    {% include head.html %}
   <body>

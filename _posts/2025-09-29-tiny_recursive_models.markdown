@@ -1,6 +1,12 @@
 ---
 layout: post
 title: "Less is More: Recursive Reasoning with Tiny Networks"
+twitter_card_type: "summary_large_image"  # e.g., 'summary', 'summary_large_image', or 'app'
+twitter_site: "@jm_alexia"  # optional: your Twitter handle
+twitter_creator: "@jm_alexia"  # optional: post author's Twitter handle
+twitter_image: "https://AlexiaJM.github.io/assets/images/TRM_fig.jpg"  # path to your image (relative to site root)
+twitter_title: "Less is More"
+twitter_description: "Recursive Reasoning with Tiny Networks"
 ---
 
   \|\| [Paper](https://arxiv.org/abs/2510.04871) \| [Code](https://github.com/SamsungSAILMontreal/TinyRecursiveModels)  \|\|

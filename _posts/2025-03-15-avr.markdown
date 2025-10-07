@@ -1,6 +1,12 @@
 ---
 layout: post
 title: "Multi-Agent Game 🎮 Generation and Evaluation via Audio-Visual Recordings 📹"
+twitter_card_type: "summary_large_image"  # e.g., 'summary', 'summary_large_image', or 'app'
+twitter_site: "@jm_alexia"  # optional: your Twitter handle
+twitter_creator: "@jm_alexia"  # optional: post author's Twitter handle
+twitter_image: "https://AlexiaJM.github.io/assets/images/thumbnail.jpg"  # path to your image (relative to site root)
+twitter_title: "Game Generation and Evaluation"
+twitter_description: "Multi-Agent Game 🎮 Generation and Evaluation via Audio-Visual Recordings 📹"
 ---
 
   \|\| [Paper](https://arxiv.org/abs/2508.00632) \| [Code](https://github.com/SamsungSAILMontreal/AVR-Eval-Agent)  \|\|
